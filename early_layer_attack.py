@@ -214,7 +214,7 @@ def cw_attack(model, images, labels, alpha,c=50, iters=1000):
 
 
 
-models_path='/glusterfs/data/mxh170530/Shallow-Deep-Networks-master/networks/1221/'
+models_path=''
 
 datasets=['cifar10','cifar100']
 sdn_names=['vgg16bn','mobilenet','resnet56']
