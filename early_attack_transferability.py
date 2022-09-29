@@ -32,7 +32,7 @@ my_dataset = TensorDataset(tensor_x, tensor_y)  # create your datset
 device = af.get_pytorch_device(gpu_id=2)
 test_loader = torchdata.DataLoader(my_dataset, batch_size=1, shuffle=False, num_workers=4)
 
-models_path='/glusterfs/data/mxh170530/Shallow-Deep-Networks-master/networks/1221/'
+
 
 datasets=['cifar10','cifar100']
 sdn_names=['vgg16bn','mobilenet','resnet56']
